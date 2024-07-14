@@ -10,8 +10,8 @@ void main() {
   FlutterNativeSplash.remove();
 }
 
-class OneSkin extends StatelessWidget {
-  const OneSkin({super.key});
+class MoleDetect extends StatelessWidget {
+  const MoleDetect({super.key});
 
   // This widget is the root of your application.
   @override
@@ -19,7 +19,7 @@ class OneSkin extends StatelessWidget {
     MaterialTheme theme = const MaterialTheme(
         TextTheme(displayMedium: TextStyle(fontFamily: 'Manrope')));
     return MaterialApp(
-      title: 'One Skin',
+      title: 'MoleDetect',
       debugShowCheckedModeBanner: false,
       theme: theme.dark(),
       initialRoute: '/',
