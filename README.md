@@ -1,4 +1,4 @@
-# one_skin
+# MoleDetect
 
 A new Flutter project.
 
